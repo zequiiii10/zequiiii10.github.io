@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+}
+h1{font-size:xx-large;
+font-family: 'Lobster', cursive;
+}
+h2{font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+}
+h3{font-size: 1.2em;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(222, 217, 149);
+}
+ 
+button{
+    font-family: 'PT Serif', serif;
+    padding: 10px 10px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: 1px solid salmon;
+    box-shadow: 1px 1px 1px black;
+    color:white;
+    background-color: rgb(65, 48, 13);
+    font-weight: bold;
+}
+button:hover{
+    background-color: brown;
+}
+
+li{font-size: 18px;}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header .logo{
+    font-family:'Lobster', cursive;
+    padding: 5px 5px;
+    color: rgb(237, 171, 48);
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+} 
+
+header .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header a{
+    padding: 10px 10px;
+    color: rgb(251, 204, 48);
+    text-decoration: solid;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header{
+    background-color: white;
+padding: 20px 20px;
+}
+
+header a:hover{
+    color:rgb(254, 229, 0)
+}
+
+#hero{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    .imagen{
+        width: 180px;
+    }
+
+    #experiencia{
+        color: white;
+        background-image: linear-gradient(
+         0deg,
+         rgba(0,0,0,0.5),
+         rgba(0,0,0,0.5)
+        ) 
+        ,url(52.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .buttons{
+        min-width: 500px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .buttons a {
+        text-decoration: none;
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: #57501d;
+        color: #f1f1f1;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+      }
+      
+      .buttons a:hover {
+        transform: scale(1.2);
+      }
+
+      .ocultar{
+        display: none;
+      }
+
+      .mostrar{
+        display: block;
+      }
+
+      .ocultar_{
+        display: none;      
+      }
+
+      .mostrar_{
+        display:block ;
+      }
+
+      .ocultar__{
+        display: none;
+      }
+
+      .mostrar__{
+        display: block;
+      }
